@@ -1,0 +1,79 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header.navbar {
+    background-color: #ff6a00;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  header.navbar nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  header.navbar .login-btn {
+    background-color: white;
+    color: #ff6a00;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main.booking-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .flight-form {
+    background-color: #f9f9f9;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .flight-form .trip-options label {
+    margin: 0 10px;
+  }
+  
+  .flight-form .input-group,
+  .flight-form .date-group,
+  .flight-form .traveler-options,
+  .flight-form .special-fares {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .flight-form .input-group input,
+  .flight-form .date-group input,
+  .flight-form .traveler-options select {
+    width: 48%;
+    padding: 8px;
+  }
+  
+  .flight-form .special-fares label {
+    margin-right: 10px;
+  }
+  
+  .flight-form .search-btn {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

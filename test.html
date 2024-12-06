@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flight Booking</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1>Goibibo</h1>
+    <nav>
+      <a href="#">Flights</a>
+      <a href="#">Hotels</a>
+      <a href="#">Trains</a>
+      <a href="#">Cabs</a>
+      <a href="#">Holidays</a>
+    </nav>
+    <button class="login-btn">Login</button>
+  </header>
+  
+  <main class="booking-container">
+    <h2>Domestic and International Flights</h2>
+    <form class="flight-form">
+      <div class="trip-options">
+        <label><input type="radio" name="trip" value="one-way" checked> One-way</label>
+        <label><input type="radio" name="trip" value="round-trip"> Round-trip</label>
+        <label><input type="radio" name="trip" value="multi-city"> Multi-city</label>
+      </div>
+      <div class="input-group">
+        <input type="text" placeholder="From (City or Airport)" required>
+        <input type="text" placeholder="To (City or Airport)" required>
+      </div>
+      <div class="date-group">
+        <input type="date" required>
+        <input type="date" placeholder="Return (Optional)">
+      </div>
+      <div class="traveler-options">
+        <select>
+          <option>1 Adult</option>
+          <option>2 Adults</option>
+          <option>3 Adults</option>
+        </select>
+        <select>
+          <option>Economy</option>
+          <option>Business</option>
+          <option>First Class</option>
+        </select>
+      </div>
+      <div class="special-fares">
+        <label><input type="checkbox"> Student</label>
+        <label><input type="checkbox"> Senior Citizen</label>
+        <label><input type="checkbox"> Armed Forces</label>
+        <label><input type="checkbox"> Doctors & Nurses</label>
+      </div>
+      <button type="submit" class="search-btn">Search Flights</button>
+    </form>
+  </main>
+
+  <script src="test.js"></script>
+</body>
+</html>
